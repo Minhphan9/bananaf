@@ -1,3 +1,5 @@
+ Title = "applecathub Hub",
+    SubTitle = "by Minh Phan",
 local UniverseID = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://apis.roblox.com/universes/v1/places/"..game.PlaceId.."/universe")).universeId
 if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
     if getgenv().betabss then
@@ -11,7 +13,7 @@ elseif game.PlaceId == 7449423635 or game.PlaceId == 2753915549 or game.PlaceId 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BF-BananaCat.lua"))()
 elseif game.PlaceId == 4520749081 or  game.PlaceId == 6381829480 or game.PlaceId == 15759515082 or game.PlaceId == 5931540094 then 
     local start = tick()
-    repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("DataLoaded") and game.Players.LocalPlayer:FindFirstChild("DataLoaded").Value
+    repeat task.wait() until game.Players.LocalPlayer
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/KL-BananaCat.lua"))()
 elseif game.PlaceId == 18901165922 or game.PlaceId == 19006211286 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/PetsGo.lua"))()
